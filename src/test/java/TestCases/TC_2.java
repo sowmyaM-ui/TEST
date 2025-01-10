@@ -12,6 +12,6 @@ public class TC_2 {
 
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		
+		driver.get("https://infor.com");
 	}
 }
